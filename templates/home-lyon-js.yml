@@ -1,0 +1,18 @@
+home-capitol-js:
+  type: node
+  screens:
+  - name: index
+    backgroundImage: true
+    regions:
+    - type: row
+      regions:
+      - type: row
+        components:
+        - BodyText
+        - ChildNodes
+        scrollable: true
+    - type: row
+      size: fixed
+      components:
+      - AppNav
+
